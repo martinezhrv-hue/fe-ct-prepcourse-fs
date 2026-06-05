@@ -1,15 +1,40 @@
+body {
+    width: 1600px;
+    border: 2px solid black;
+}
+
+header {
+    height: 41px;
+    margin-left: 191px;
+    margin-right: 192px;
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+#logo_trafalgar {
+    width: 160px;
+    height: 41px;
+}
+
 nav {
-    background-color: aqua;
+    width: 545px;
+    height: 23px;
+}   
+
+nav ul{
+    display: flex;
+    justify-content: space-between; 
 }
 
-.listItem{
-    background-color: blueviolet;
+nav ul li {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 22.59px;
+    color:#1F1534;
 }
 
-.font20{
-    font-size: 100px;
-}
 
-#navbar{
-    background-color: beige;
-}
+
+
