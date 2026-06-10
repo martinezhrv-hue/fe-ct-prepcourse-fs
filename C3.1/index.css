@@ -1,6 +1,5 @@
 body {
     width: 1600px;
-    border: 2px solid black;
 }
 
 header {
@@ -33,8 +32,70 @@ nav ul li {
     text-align: center;
     line-height: 22.59px;
     color:#1F1534;
+    font-family: "Mulish", sans-serif;
 }
 
+nav ul li:hover {
+    font-weight: 700;
+}
+
+.articulo1 {
+    width: 445px;
+    height: 338px;
+    margin-left: 190px;
+    margin-top: 283px;
+    margin-right: 109px;
+}
+.articulo1 h1{
+    font-family: "Mulish", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip: none;
+}
+.articulo1 p{
+    font-family: "Mulish", sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    color: #7D7987;  
+}
+.articulo1 button{
+    width: 200px;
+    height: 56px;
+    top: 564px;
+    left: 190px;
+    border-radius: 55px;
+    opacity: 0px;
+    background-color: #458FF6;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip: none;
+    margin-top: 45px;
+    color: #FFFFFF;  
+}
+
+.articulo2{
+    width: 693px;
+    height: 598px;
+    top: 177px;
+    left: 744px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 84px;
+}
+
+#section1 {
+    display: flex;
+}
 
 
 
